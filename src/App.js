@@ -1,6 +1,8 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import {SvgIcon,TextField ,Checkbox,FormControlLabel,Button,Link } from '@material-ui/core';
+import LineChart from './LineChart'
+import {BarChart} from './BarChart'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -86,6 +88,10 @@ export default function SvgIconsColor() {
     >
       Don't have an account ? Sign Up
     </Link>
+    <br/>
+    <LineChart/>
+    <br/>
+    <BarChart/>
     </div>
 
   );
